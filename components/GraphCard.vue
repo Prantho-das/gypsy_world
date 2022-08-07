@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="card-body">
-      <div class="d-flex align-items-center justify-content-between">
+      <div class="d-flex flex-md-row flex-column align-items-center justify-content-between">
         <h5>User activity</h5>
         <div class="activity_tab d-flex gap-3">
           <h5
@@ -25,7 +25,7 @@
         </div>
       </div>
       <div class="chart">
-        <div class="d-flex gap-5">
+        <div class="d-flex flex-md-row flex-column gap-md-5 mt-md-0 mt-2">
           <h1>1730</h1>
           <div class="d-flex align-items-center gap-2">
             <div class="icon py-1 px-2 bg-success rounded-circle mb-3">

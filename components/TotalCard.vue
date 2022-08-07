@@ -1,4 +1,5 @@
-<template>  <div class="col-lg-3 col-md-6 col-12">
+<template>
+<div class="col-lg-3 col-md-6 col-12">
   <div class="card">
     <div class="card-body d-flex align-items-center justify-content-between">
       <div>
