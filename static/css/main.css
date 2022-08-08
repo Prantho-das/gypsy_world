@@ -10,8 +10,13 @@ a {
   position: fixed;
   top: 0;
   left: 0;
+  bottom: 0;
   padding: 1rem 0rem;
   transition: 0.3s all ease-in-out;
+  overflow: auto;
+}
+main{
+  flex: 1;
 }
 .nuxt-link-exact-active {
   display: flex;
@@ -42,7 +47,7 @@ a {
   border-radius: 50%;
   overflow-clip-box: content-box;
 }
-.nav-toggler{
+.nav-toggler {
   cursor: pointer;
 }
 
@@ -69,26 +74,26 @@ a {
   margin-left: auto;
 }
 
-@media screen and (max-width:768px) {
-  #sidebar_nav i{
+@media screen and (max-width: 768px) {
+  #sidebar_nav i {
     font-size: 16px;
   }
-  .user-notify a i{
+  .user-notify a i {
     font-size: 18px;
   }
   .user-notify .avatar {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  overflow-clip-box: content-box;
-}
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow-clip-box: content-box;
+  }
 }
 
-@media screen and (max-width:480px) {
-  .active{
+@media screen and (max-width: 480px) {
+  .active {
     padding: 0.3rem 0.6rem;
   }
-  .activity_tab h5{
+  .activity_tab h5 {
     font-size: 0.8rem;
   }
 }

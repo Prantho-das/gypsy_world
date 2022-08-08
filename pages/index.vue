@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="d-flex">
     <div
       id="sidebar"
       :class="navOpen ? 'sidebar_nav_big' : 'sidebar_nav_small'"
@@ -14,6 +14,7 @@
             <span class="nav-text">Home</span>
           </div>
         </nuxt-link>
+
         <nuxt-link to="/user">
           <div class="mt-md-4 mt-2">
             <i class="text-secondary fas fa-users"></i>
@@ -49,7 +50,7 @@
         ></i>
       </nav>
       <div
-        class="user-notify text-center mt-5 d-flex flex-column align-items-center gap-4"
+        class="user-notify text-center mt-4 d-flex flex-column align-items-center gap-4"
       >
         <nuxt-link to="/notification" class="mt-4">
           <i class="fa-regular fa-bell"></i>

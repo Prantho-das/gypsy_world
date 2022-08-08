@@ -1,8 +1,3 @@
 <template>
-  <section>
-    <Sidebar/>
-    <main>
-      <Nuxt />
-    </main>
-  </section>
+  <Nuxt />
 </template>
